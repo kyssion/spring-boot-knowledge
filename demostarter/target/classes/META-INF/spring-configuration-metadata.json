@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.kys.starter.properties.StarterProperties",
+      "name": "properties.starter",
+      "type": "com.kys.starter.properties.StarterProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.kys.starter.properties.StarterProperties",
+      "name": "properties.starter.age",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kys.starter.properties.StarterProperties",
+      "name": "properties.starter.name",
+      "type": "java.lang.String"
+    }
+  ]
+}

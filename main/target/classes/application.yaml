@@ -1,0 +1,8 @@
+properties:
+  main:
+    name: kys
+    age: hh
+  starter:
+    enabled: true
+    name: kys-starter
+    age: 12-starter
