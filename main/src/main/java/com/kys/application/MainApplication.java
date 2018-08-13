@@ -7,11 +7,16 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.SpringServletContainerInitializer;
+import org.springframework.web.bind.annotation.RequestAttribute;
+import org.springframework.web.bind.annotation.SessionAttribute;
+import org.springframework.web.bind.annotation.SessionAttributes;
 
 import javax.annotation.Resource;
 import javax.naming.Name;
 
 @SpringBootApplication
+@SessionAttributes
 public class MainApplication implements CommandLineRunner {
     @Autowired
     MainTestBean mainPropertiesBean;
