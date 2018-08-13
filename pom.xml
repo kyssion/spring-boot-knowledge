@@ -9,7 +9,6 @@
     <modules>
         <module>demostarter</module>
         <module>main</module>
-        <module>kk</module>
     </modules>
     <packaging>pom</packaging>
 
